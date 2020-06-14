@@ -1,0 +1,104 @@
+body{
+  background: url(../images/skyview.jpg) no-repeat;
+    background-size:cover;
+    height: 100vh;
+    background-position: left;
+    margin: 0;
+}
+
+
+
+div{
+    font-family:"Comic Sans MS", Arial;
+  font-size:30px;
+  color:#ffffff;
+ }
+
+p{
+  display:inline-flex;
+}
+
+.lead {
+  color:#FF0000;
+}
+.rotate {
+
+  transform: rotate(-20deg);
+
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-20deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-20deg);
+
+  /* IE */
+  -ms-transform: rotate(-20deg);
+
+  /* Opera */
+  -o-transform: rotate(-20deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
+}
+.credit {
+  font-size:40px;
+  font-family: Impact, Arial, "Times New Roman";
+  text-transform:capitalize;
+  color:#FFFFFF;
+}
+aside {
+  position:top;
+  clear:right;
+  clear:top;
+
+}
+aside p{
+  font-size:35px;
+  color:#FFFFFF;
+  font-family: Impact, Arial, "Times New Roman";
+
+}
+.intro {
+  
+  clear:both;
+  display:inline-flex;
+  position:relative;
+  top:300px;
+  left:200px;
+  color:#ffffff;
+  bottom:0;
+  text-align:center;
+  font-family:"Comic Sans MS", Arial, impact;
+  font-size:25px;
+  
+}
+
+.special {
+  opacity:0.5;
+  display:inline-block;
+  position:relative;
+  left:100px;
+  right:100px;
+  padding:0;
+  margin:0;
+  border:0;
+  width:800px;
+}
+
+footer {
+  clear:both;
+  position:absolute; 
+  bottom:0;
+  top:300;
+}
+nav a{
+  color:#FFFFFF;
+  text-decoration:none;
+  float:right;
+  font-size:20px;
+  font-family:"Comis Sans MS", Arial, Impact;
+}
