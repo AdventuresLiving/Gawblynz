@@ -67,7 +67,8 @@ aside p{
   clear:both;
   display:inline-flex;
   position:relative;
-  top:500px;  
+  top:400px; 
+  left:20px;
   right:100px
   color:#ffffff;
   bottom:0;
