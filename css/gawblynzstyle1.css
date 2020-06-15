@@ -80,14 +80,14 @@ aside p{
 
 .special {
   opacity:0.5;
-  display:inline-block;
+  display:block;
   position:relative;
   left:100px;
   right:100px;
   padding:0;
-  margin:0;
+  margin:0 auto;
   border:0;
-  width:800px;
+  width: vw;
 }
 
 footer {
