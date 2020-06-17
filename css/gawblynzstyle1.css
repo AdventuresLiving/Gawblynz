@@ -89,13 +89,28 @@ aside p{
   margin:0 auto;
   border:0;
   width: vw;
-  transition-property: width, height, background;
-  transition-duration: .7s;
+  transition-property: opacity, width, height, background;
+  transition-duration: .7s ease;
   transition-timing-function: linear;
   
   
 }
 
+.special:hover {
+webkit-transform: rotate(-20deg);
+ -moz-transform: rotate(-20deg);
+-ms-transform: rotate(-20deg);
+-o-transform: rotate(-20deg);
+
+ 
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  width:800px;
+  height: 400px;
+  opacity: 1;
+  background:#000080;
+}
+
+}
 footer {
   clear:both;
   position:absolute; 
